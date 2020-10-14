@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC 
+ "-//SPRING/DTD BEAN/EN" 
+ "http://www.springframework.org/dtd/spring-beans.dtd">
+ <beans>
+ <bean name="/login" class="Controller.loginController"/>
+ <bean name="/addmember" class="Controller.addmemberController"/>
+ <bean name="/adminupdatemember" class="Controller.adminupdatememberController"/>
+ <bean name="/admindeletemember" class="Controller.admindeletememberController"/>
+ <bean name="/confirmporder" class="Controller.confirmporderController"/>
+ <bean name="/addporder" class="Controller.addporderController"/>
+ <bean name="/adminupdateporder" class="Controller.adminupdateporderController"/>
+ <bean name="/admindeleteporder" class="Controller.admindeleteporderController"/>
+ <bean name="/updatemember" class="Controller.updatememberController"/>
+ 
+ </beans>
